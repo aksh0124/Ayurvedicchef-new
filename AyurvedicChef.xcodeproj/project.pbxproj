@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40482241E5852D0004C9E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C40482231E5852D0004C9E1A /* main.m */; };
+		C40482271E5852D0004C9E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C40482261E5852D0004C9E1A /* AppDelegate.m */; };
+		C404822A1E5852D0004C9E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40482291E5852D0004C9E1A /* ViewController.m */; };
+		C404822D1E5852D0004C9E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C404822B1E5852D0004C9E1A /* Main.storyboard */; };
+		C404822F1E5852D0004C9E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C404822E1E5852D0004C9E1A /* Assets.xcassets */; };
+		C40482321E5852D0004C9E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40482301E5852D0004C9E1A /* LaunchScreen.storyboard */; };
+		C404823D1E5852D0004C9E1A /* AyurvedicChefTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C404823C1E5852D0004C9E1A /* AyurvedicChefTests.m */; };
+		C40482481E5852D0004C9E1A /* AyurvedicChefUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C40482471E5852D0004C9E1A /* AyurvedicChefUITests.m */; };
+		C40482591E58582C004C9E1A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40482581E58582C004C9E1A /* LoginViewController.m */; };
+		C404825C1E58583E004C9E1A /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404825B1E58583E004C9E1A /* SignupViewController.m */; };
+		C404825F1E585873004C9E1A /* SearchRecipiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C404825E1E585873004C9E1A /* SearchRecipiesViewController.m */; };
+		C72090FB1EEE75B40051CB00 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C72090FA1EEE75B40051CB00 /* ViewController.storyboard */; };
+		C76468F51E98BC2D00CD6A22 /* ayur_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C76468F41E98BC2D00CD6A22 /* ayur_logo.png */; };
+		C7BB60E81EB48E5300AB3A37 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60E71EB48E5300AB3A37 /* FBSDKLoginKit.framework */; };
+		C7BB60F51EB494C700AB3A37 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60EB1EB494C600AB3A37 /* AccountKit.framework */; };
+		C7BB60F71EB494C700AB3A37 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60ED1EB494C600AB3A37 /* Bolts.framework */; };
+		C7BB60F91EB494C700AB3A37 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60EF1EB494C600AB3A37 /* FBAudienceNetwork.framework */; };
+		C7BB60FA1EB494C700AB3A37 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60F01EB494C700AB3A37 /* FBNotifications.framework */; };
+		C7BB60FB1EB494C700AB3A37 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60F11EB494C700AB3A37 /* FBSDKCoreKit.framework */; };
+		C7BB60FC1EB494C700AB3A37 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60F21EB494C700AB3A37 /* FBSDKMessengerShareKit.framework */; };
+		C7BB60FD1EB494C700AB3A37 /* FBSDKPlacesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60F31EB494C700AB3A37 /* FBSDKPlacesKit.framework */; };
+		C7BB60FE1EB494C700AB3A37 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BB60F41EB494C700AB3A37 /* FBSDKShareKit.framework */; };
+		C7CBB2E61EE9571C001977FE /* JsonRecipeTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CBB2E51EE9571C001977FE /* JsonRecipeTableTableViewController.m */; };
+		C7D282B31EB9E14A000BAA6D /* FBLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D282B21EB9E14A000BAA6D /* FBLogin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40482391E5852D0004C9E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40482171E5852D0004C9E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C404821E1E5852D0004C9E1A;
+			remoteInfo = AyurvedicChef;
+		};
+		C40482441E5852D0004C9E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40482171E5852D0004C9E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C404821E1E5852D0004C9E1A;
+			remoteInfo = AyurvedicChef;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C404821F1E5852D0004C9E1A /* AyurvedicChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AyurvedicChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40482231E5852D0004C9E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C40482251E5852D0004C9E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C40482261E5852D0004C9E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C40482281E5852D0004C9E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C40482291E5852D0004C9E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C404822C1E5852D0004C9E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C404822E1E5852D0004C9E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40482311E5852D0004C9E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40482331E5852D0004C9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40482381E5852D0004C9E1A /* AyurvedicChefTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyurvedicChefTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C404823C1E5852D0004C9E1A /* AyurvedicChefTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AyurvedicChefTests.m; sourceTree = "<group>"; };
+		C404823E1E5852D0004C9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40482431E5852D0004C9E1A /* AyurvedicChefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AyurvedicChefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40482471E5852D0004C9E1A /* AyurvedicChefUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AyurvedicChefUITests.m; sourceTree = "<group>"; };
+		C40482491E5852D0004C9E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40482571E58582C004C9E1A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C40482581E58582C004C9E1A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C404825A1E58583E004C9E1A /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		C404825B1E58583E004C9E1A /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		C404825D1E585873004C9E1A /* SearchRecipiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchRecipiesViewController.h; sourceTree = "<group>"; };
+		C404825E1E585873004C9E1A /* SearchRecipiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchRecipiesViewController.m; sourceTree = "<group>"; };
+		C72090FA1EEE75B40051CB00 /* ViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		C76468F41E98BC2D00CD6A22 /* ayur_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ayur_logo.png; sourceTree = "<group>"; };
+		C7BB60E71EB48E5300AB3A37 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		C7BB60EB1EB494C600AB3A37 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/AccountKit.framework"; sourceTree = "<group>"; };
+		C7BB60EC1EB494C600AB3A37 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = "../../Documents/FacebookSDKs-iOS-4.22.0/AccountKitStrings.bundle"; sourceTree = "<group>"; };
+		C7BB60ED1EB494C600AB3A37 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/Bolts.framework"; sourceTree = "<group>"; };
+		C7BB60EE1EB494C600AB3A37 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
+		C7BB60EF1EB494C600AB3A37 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBAudienceNetwork.framework"; sourceTree = "<group>"; };
+		C7BB60F01EB494C700AB3A37 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBNotifications.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBNotifications.framework"; sourceTree = "<group>"; };
+		C7BB60F11EB494C700AB3A37 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		C7BB60F21EB494C700AB3A37 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+		C7BB60F31EB494C700AB3A37 /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKPlacesKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKPlacesKit.framework"; sourceTree = "<group>"; };
+		C7BB60F41EB494C700AB3A37 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../Documents/FacebookSDKs-iOS-4.22.0/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		C7CBB2E41EE9571C001977FE /* JsonRecipeTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonRecipeTableTableViewController.h; sourceTree = "<group>"; };
+		C7CBB2E51EE9571C001977FE /* JsonRecipeTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonRecipeTableTableViewController.m; sourceTree = "<group>"; };
+		C7D282B11EB9E14A000BAA6D /* FBLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLogin.h; sourceTree = "<group>"; };
+		C7D282B21EB9E14A000BAA6D /* FBLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLogin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C404821C1E5852D0004C9E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BB60F51EB494C700AB3A37 /* AccountKit.framework in Frameworks */,
+				C7BB60F71EB494C700AB3A37 /* Bolts.framework in Frameworks */,
+				C7BB60F91EB494C700AB3A37 /* FBAudienceNetwork.framework in Frameworks */,
+				C7BB60FA1EB494C700AB3A37 /* FBNotifications.framework in Frameworks */,
+				C7BB60FB1EB494C700AB3A37 /* FBSDKCoreKit.framework in Frameworks */,
+				C7BB60FC1EB494C700AB3A37 /* FBSDKMessengerShareKit.framework in Frameworks */,
+				C7BB60FD1EB494C700AB3A37 /* FBSDKPlacesKit.framework in Frameworks */,
+				C7BB60FE1EB494C700AB3A37 /* FBSDKShareKit.framework in Frameworks */,
+				C7BB60E81EB48E5300AB3A37 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40482351E5852D0004C9E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40482401E5852D0004C9E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40482161E5852D0004C9E1A = {
+			isa = PBXGroup;
+			children = (
+				C40482211E5852D0004C9E1A /* AyurvedicChef */,
+				C404823B1E5852D0004C9E1A /* AyurvedicChefTests */,
+				C40482461E5852D0004C9E1A /* AyurvedicChefUITests */,
+				C40482201E5852D0004C9E1A /* Products */,
+				C7BB60E61EB48DC500AB3A37 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C40482201E5852D0004C9E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C404821F1E5852D0004C9E1A /* AyurvedicChef.app */,
+				C40482381E5852D0004C9E1A /* AyurvedicChefTests.xctest */,
+				C40482431E5852D0004C9E1A /* AyurvedicChefUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40482211E5852D0004C9E1A /* AyurvedicChef */ = {
+			isa = PBXGroup;
+			children = (
+				C40482611E585E81004C9E1A /* Images */,
+				C40482601E585E4F004C9E1A /* ViewCantrollers */,
+				C40482251E5852D0004C9E1A /* AppDelegate.h */,
+				C40482261E5852D0004C9E1A /* AppDelegate.m */,
+				C404822B1E5852D0004C9E1A /* Main.storyboard */,
+				C404822E1E5852D0004C9E1A /* Assets.xcassets */,
+				C40482301E5852D0004C9E1A /* LaunchScreen.storyboard */,
+				C40482331E5852D0004C9E1A /* Info.plist */,
+				C40482221E5852D0004C9E1A /* Supporting Files */,
+			);
+			path = AyurvedicChef;
+			sourceTree = "<group>";
+		};
+		C40482221E5852D0004C9E1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C40482231E5852D0004C9E1A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C404823B1E5852D0004C9E1A /* AyurvedicChefTests */ = {
+			isa = PBXGroup;
+			children = (
+				C404823C1E5852D0004C9E1A /* AyurvedicChefTests.m */,
+				C404823E1E5852D0004C9E1A /* Info.plist */,
+			);
+			path = AyurvedicChefTests;
+			sourceTree = "<group>";
+		};
+		C40482461E5852D0004C9E1A /* AyurvedicChefUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40482471E5852D0004C9E1A /* AyurvedicChefUITests.m */,
+				C40482491E5852D0004C9E1A /* Info.plist */,
+			);
+			path = AyurvedicChefUITests;
+			sourceTree = "<group>";
+		};
+		C40482601E585E4F004C9E1A /* ViewCantrollers */ = {
+			isa = PBXGroup;
+			children = (
+				C7D282B11EB9E14A000BAA6D /* FBLogin.h */,
+				C7D282B21EB9E14A000BAA6D /* FBLogin.m */,
+				C40482571E58582C004C9E1A /* LoginViewController.h */,
+				C40482581E58582C004C9E1A /* LoginViewController.m */,
+				C404825A1E58583E004C9E1A /* SignupViewController.h */,
+				C404825B1E58583E004C9E1A /* SignupViewController.m */,
+				C404825D1E585873004C9E1A /* SearchRecipiesViewController.h */,
+				C404825E1E585873004C9E1A /* SearchRecipiesViewController.m */,
+				C7CBB2E41EE9571C001977FE /* JsonRecipeTableTableViewController.h */,
+				C7CBB2E51EE9571C001977FE /* JsonRecipeTableTableViewController.m */,
+				C40482281E5852D0004C9E1A /* ViewController.h */,
+				C40482291E5852D0004C9E1A /* ViewController.m */,
+				C72090FA1EEE75B40051CB00 /* ViewController.storyboard */,
+			);
+			name = ViewCantrollers;
+			sourceTree = "<group>";
+		};
+		C40482611E585E81004C9E1A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C76468F41E98BC2D00CD6A22 /* ayur_logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C7BB60E61EB48DC500AB3A37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB60EB1EB494C600AB3A37 /* AccountKit.framework */,
+				C7BB60EC1EB494C600AB3A37 /* AccountKitStrings.bundle */,
+				C7BB60ED1EB494C600AB3A37 /* Bolts.framework */,
+				C7BB60EE1EB494C600AB3A37 /* FacebookSDKStrings.bundle */,
+				C7BB60EF1EB494C600AB3A37 /* FBAudienceNetwork.framework */,
+				C7BB60F01EB494C700AB3A37 /* FBNotifications.framework */,
+				C7BB60F11EB494C700AB3A37 /* FBSDKCoreKit.framework */,
+				C7BB60F21EB494C700AB3A37 /* FBSDKMessengerShareKit.framework */,
+				C7BB60F31EB494C700AB3A37 /* FBSDKPlacesKit.framework */,
+				C7BB60F41EB494C700AB3A37 /* FBSDKShareKit.framework */,
+				C7BB60E71EB48E5300AB3A37 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C404821E1E5852D0004C9E1A /* AyurvedicChef */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C404824C1E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChef" */;
+			buildPhases = (
+				C404821B1E5852D0004C9E1A /* Sources */,
+				C404821C1E5852D0004C9E1A /* Frameworks */,
+				C404821D1E5852D0004C9E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AyurvedicChef;
+			productName = AyurvedicChef;
+			productReference = C404821F1E5852D0004C9E1A /* AyurvedicChef.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40482371E5852D0004C9E1A /* AyurvedicChefTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C404824F1E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChefTests" */;
+			buildPhases = (
+				C40482341E5852D0004C9E1A /* Sources */,
+				C40482351E5852D0004C9E1A /* Frameworks */,
+				C40482361E5852D0004C9E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C404823A1E5852D0004C9E1A /* PBXTargetDependency */,
+			);
+			name = AyurvedicChefTests;
+			productName = AyurvedicChefTests;
+			productReference = C40482381E5852D0004C9E1A /* AyurvedicChefTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40482421E5852D0004C9E1A /* AyurvedicChefUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40482521E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChefUITests" */;
+			buildPhases = (
+				C404823F1E5852D0004C9E1A /* Sources */,
+				C40482401E5852D0004C9E1A /* Frameworks */,
+				C40482411E5852D0004C9E1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40482451E5852D0004C9E1A /* PBXTargetDependency */,
+			);
+			name = AyurvedicChefUITests;
+			productName = AyurvedicChefUITests;
+			productReference = C40482431E5852D0004C9E1A /* AyurvedicChefUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40482171E5852D0004C9E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = asc3;
+				TargetAttributes = {
+					C404821E1E5852D0004C9E1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					C40482371E5852D0004C9E1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C404821E1E5852D0004C9E1A;
+					};
+					C40482421E5852D0004C9E1A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Manual;
+						TestTargetID = C404821E1E5852D0004C9E1A;
+					};
+				};
+			};
+			buildConfigurationList = C404821A1E5852D0004C9E1A /* Build configuration list for PBXProject "AyurvedicChef" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40482161E5852D0004C9E1A;
+			productRefGroup = C40482201E5852D0004C9E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C404821E1E5852D0004C9E1A /* AyurvedicChef */,
+				C40482371E5852D0004C9E1A /* AyurvedicChefTests */,
+				C40482421E5852D0004C9E1A /* AyurvedicChefUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C404821D1E5852D0004C9E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40482321E5852D0004C9E1A /* LaunchScreen.storyboard in Resources */,
+				C72090FB1EEE75B40051CB00 /* ViewController.storyboard in Resources */,
+				C404822F1E5852D0004C9E1A /* Assets.xcassets in Resources */,
+				C76468F51E98BC2D00CD6A22 /* ayur_logo.png in Resources */,
+				C404822D1E5852D0004C9E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40482361E5852D0004C9E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40482411E5852D0004C9E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C404821B1E5852D0004C9E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40482591E58582C004C9E1A /* LoginViewController.m in Sources */,
+				C404822A1E5852D0004C9E1A /* ViewController.m in Sources */,
+				C40482271E5852D0004C9E1A /* AppDelegate.m in Sources */,
+				C40482241E5852D0004C9E1A /* main.m in Sources */,
+				C404825F1E585873004C9E1A /* SearchRecipiesViewController.m in Sources */,
+				C404825C1E58583E004C9E1A /* SignupViewController.m in Sources */,
+				C7CBB2E61EE9571C001977FE /* JsonRecipeTableTableViewController.m in Sources */,
+				C7D282B31EB9E14A000BAA6D /* FBLogin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40482341E5852D0004C9E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C404823D1E5852D0004C9E1A /* AyurvedicChefTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C404823F1E5852D0004C9E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40482481E5852D0004C9E1A /* AyurvedicChefUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C404823A1E5852D0004C9E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C404821E1E5852D0004C9E1A /* AyurvedicChef */;
+			targetProxy = C40482391E5852D0004C9E1A /* PBXContainerItemProxy */;
+		};
+		C40482451E5852D0004C9E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C404821E1E5852D0004C9E1A /* AyurvedicChef */;
+			targetProxy = C40482441E5852D0004C9E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C404822B1E5852D0004C9E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C404822C1E5852D0004C9E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40482301E5852D0004C9E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40482311E5852D0004C9E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C404824A1E5852D0004C9E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C404824B1E5852D0004C9E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C404824D1E5852D0004C9E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/asc6/Documents/FacebookSDKs-iOS-4.22.0";
+				INFOPLIST_FILE = AyurvedicChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C404824E1E5852D0004C9E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/asc6/Documents/FacebookSDKs-iOS-4.22.0";
+				INFOPLIST_FILE = AyurvedicChef/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChef;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C40482501E5852D0004C9E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AyurvedicChefTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AyurvedicChef.app/AyurvedicChef";
+			};
+			name = Debug;
+		};
+		C40482511E5852D0004C9E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AyurvedicChefTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChefTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AyurvedicChef.app/AyurvedicChef";
+			};
+			name = Release;
+		};
+		C40482531E5852D0004C9E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AyurvedicChefUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AyurvedicChef;
+			};
+			name = Debug;
+		};
+		C40482541E5852D0004C9E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AyurvedicChefUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = asc.ayurvedicchef.com.AyurvedicChefUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AyurvedicChef;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C404821A1E5852D0004C9E1A /* Build configuration list for PBXProject "AyurvedicChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C404824A1E5852D0004C9E1A /* Debug */,
+				C404824B1E5852D0004C9E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C404824C1E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChef" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C404824D1E5852D0004C9E1A /* Debug */,
+				C404824E1E5852D0004C9E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C404824F1E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChefTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40482501E5852D0004C9E1A /* Debug */,
+				C40482511E5852D0004C9E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40482521E5852D0004C9E1A /* Build configuration list for PBXNativeTarget "AyurvedicChefUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40482531E5852D0004C9E1A /* Debug */,
+				C40482541E5852D0004C9E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40482171E5852D0004C9E1A /* Project object */;
+}
